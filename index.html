@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>SetTimeout in ES6</h1>
+    <div class="one">
+        <img src="1.png" alt="">
+        <p>
+            Here a for loop is initiated with a snippet of code in it, it has print area and a timed function
+            timed function enters API block prints the text after 1 second as specified in it, where as normal text 
+            enters the console directly, at firt the outer for loop whichis declared with "var" is been executed which 
+            prints value of i 20 times from 0 to 19, since the
+            timed function is given a lag of 1 sec the outer loop finishes execution in mean time and once the
+            timed function starts execution i value will be 20 so it prints the text as number is 20 for 20 times.
+            Since the var can be reassigned the value will be overwritten to new value each time.
+        </p>
+    </div>
+    <div class="two">
+        <img src="2.png" alt="">
+        <p>
+            Here we are using the "let" to declare variable in for loop, the normal print will enter console but the timed 
+            function will enter API to get executed later it enters to queue and then console, by that time all the normal
+            prints will get executed and after the stack is empty the code in queue will get printed as the let value cannot
+            be reassigned it will print the new value every time. and the output will be like 0,1,2,3....19 and in next line
+            the text will print as number is 0, number is 1 .... number is 19. 
+        </p>
+    </div>
+</body>
+</html>

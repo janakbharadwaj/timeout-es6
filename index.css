@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background: linear-gradient(0.25turn, #2268c3b2, #f25ef781, #5ef75eab);
+    font-family: 'Oswald', sans-serif;
+}
+.one,
+.two{
+    /* border: 1px solid black; */
+    margin: 2% auto;
+    width: 80%;
+    padding: 1.5%;
+    box-shadow: 5px 5px 23px #7b5617ab, -5px -5px 23px #16dad028;
+    transition: all 0.5s ease-in;
+    background: linear-gradient(145deg, #d76029d2, #b3b522b4);
+    border-radius: 1%;
+}
+img{
+    width: 50%;
+    border-radius: 1%;
+}
+h1{
+    text-decoration: underline;
+}
+p{
+    font-size: 25px;
+}
